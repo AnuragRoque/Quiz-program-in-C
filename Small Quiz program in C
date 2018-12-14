@@ -1,0 +1,48 @@
+#include<stdio.h>
+int main()
+{
+    printf("Quiz with some questions\n\n\n");
+    int choice ;
+    printf("\nQuestion 1 - In which language this program is running \n1. Java\n2. Python\n3. C\n4. C++\n\n");
+    scanf("%d", &choice);
+    if (choice == 3)
+        {
+            printf("\nRight\n");
+        }
+    else
+        printf("\nwrong\n");
+       // system.exit(0);
+
+    printf("\nQuestion 2- This program is in if-else statement or Switch case?\n1. if-else\n2. switch\n");
+    scanf("%d", &choice);
+    if (choice == 1)
+        {
+            printf("\nRight\n");
+        }
+    else
+        printf("\n\nwrong\n\n");
+
+    printf("\nQuestion 3- DEV C++ is used for ?\n1. Professional purpose\n2. Education/learning purpose\n");
+    scanf("%d", &choice);
+    if (choice == 2)
+        {
+            printf("\nRight\n");
+        }
+    else
+        printf("\n\nwrong\n\n");
+
+        printf("\nQuestion 4- Which software is not for C , C++?\n1. CodeBlocks\n2. Atom\n3. Anaconda\n4. Sublime Text\n");
+    scanf("%d", &choice);
+    if (choice == 3)
+        {
+            printf("\nRight\n");
+        }
+    else
+        printf("\n\nwrong\n\n");
+
+    printf("\nQuestion 5- How many you got Right?\n1. 0 time\n2. 1 time\n3. 2 times\n4. 3 times\n5. 4 times\n\n");
+    scanf("%d", &choice);
+    printf("\n\ngreat\nQuiz program finished\n\n");
+
+
+}
