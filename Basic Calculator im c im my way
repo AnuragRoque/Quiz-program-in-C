@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int value1,value2;
+    int final;
+    int function;
+    printf("Calculator prog. Enter your values:");
+    printf("\nEnter two integers\n");
+    scanf("%d %d", &value1,&value2);
+    printf("Press 1 for + \n      2 for -\n      3 for *\n      4 for /\n");
+    scanf("%d", &function);
+
+    if (function == 1){
+        printf("%d+%d = %d",value1, value2, value1 + value2);
+    }
+    else if (function == 2)
+    {
+        printf("%d-%d = %d",value1, value2, value1 - value2);
+    }
+    else if (function == 3)
+        {
+            final = value1*value2;
+            printf("Answer is: %d", final);
+        }
+    else if (function == 4)
+    {
+        final = value1/value2;
+        printf("Answer is: %d", final);
+    }
+    else
+        printf("ERROR");
+
+}
